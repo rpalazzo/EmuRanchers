@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ListPreference
+        android:key="difficulty_key"
+        android:title="@string/difficulty_title"
+        android:summary="@string/difficulty_summary"
+        android:dialogTitle="@string/difficulty_dialogtitle"
+        android:entries="@array/difficulty_entries"
+        android:entryValues="@array/difficulty_values"
+        android:defaultValue="@string/difficulty_default" />
+    
+    <ListPreference
+        android:key="optionalcards_key"
+        android:title="@string/optionalcards_title"
+        android:summary="@string/optionalcards_summary"
+        android:dialogTitle="@string/optionalcards_dialogtitle"
+        android:entries="@array/optionalcards_entries"
+        android:entryValues="@array/optionalcards_values"
+        android:defaultValue="@string/optionalcards_default" />
+    
+    <ListPreference
+        android:key="numberofyears_key"
+        android:title="@string/numberofyears_title"
+        android:summary="@string/numberofyears_summary"
+        android:dialogTitle="@string/numberofyears_dialogtitle"
+        android:entries="@array/numberofyears_entries"
+        android:entryValues="@array/numberofyears_values"
+        android:defaultValue="@string/numberofyears_default" />
+    
+</PreferenceScreen>

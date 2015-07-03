@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Emu Ranchers</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="stats">Stats</string>
+    <string name="rules">Rules</string>
+    <string name="about">About</string>
+    <string name="ok">OK</string>
+    <string name="error_suit_match">Wrong suit.</string>
+    <string name="error_wild_hatch">Wild cards cannot be used to start new stacks.</string>
+    <string name="error_too_small">Ranks must be in INCREASING order for this stack.</string>
+    <string name="error_too_big">Ranks must be in DECREASING order for this stack.</string>
+    <string name="error_dup_rank">Ranks cannot be played for existing wild cards.</string>
+    <string name="error_dup_wild">Wild cards cannot represent existing ranks.</string>
+    <string name="error_eoy_hatch">New stacks cannot be started after the round ends.</string>
+    
+    <string name="instructions_init">Drag a card to start a new stack or to discard.</string>
+    <string name="instructions_play">Start a new stack, add to an existing stack, or discard.</string>
+    <string name="instructions_draw">Tap the draw pile or discard pile to draw a card.</string>
+    <string name="instructions_draw_only">Tap the draw pile to draw a card.</string>
+    <string name="instructions_eoy">End of year: Add all remaining cards to stacks or discard pile.</string>
+    
+    <string name="eoy_message">The last card has been drawn; the year is over.</string>
+    <string name="player_starts">You play first.</string>
+    <string name="cpu_starts">The computer played first.  Your turn.</string>
+    
+    <string name="moons">Moons</string>
+    <string name="suns">Suns</string>
+    <string name="waves">Waves</string>
+    <string name="leaves">Leaves</string>
+    <string name="wyrms">Wyrms</string>
+    <string name="knots">Knots</string>
+    <string name="ace">Ace</string>
+    <string name="pawn">Pawn</string>
+    <string name="crown">Crown</string>
+    <string name="excuse">Excuse</string>
+    <string name="ace_moons">Ace of Moons</string>
+    <string name="author">Author</string>
+    <string name="journey">Journey</string>
+    <string name="mountain">Mountain</string>
+    <string name="forest">Forest</string>
+    <string name="lunatic">Lunatic</string>
+    <string name="chance_meeting">Chance Meeting</string>
+    <string name="pact">Pact</string>
+    <string name="diplomat">Diplomat</string>
+    <string name="huntress">Huntress</string>
+    <string name="harvest">Harvest</string>
+    <string name="consul">Consul</string>
+    <string name="rite">Rite</string>
+    <string name="watchman">Watchman</string>
+    <string name="ace_suns">Ace of Suns</string>
+    <string name="desert">Desert</string>
+    <string name="painter">Painter</string>
+    <string name="discovery">Discovery</string>
+    <string name="penitent">Penitent</string>
+    <string name="castle">Castle</string>
+    <string name="bard">Bard</string>
+    <string name="island">Island</string>
+    <string name="light_keeper">Light Keeper</string>
+    <string name="window">Window</string>
+    <string name="ace_waves">Ace of Waves</string>
+    <string name="origin">Origin</string>
+    <string name="sailor">Sailor</string>
+    <string name="cave">Cave</string>
+    <string name="mill">Mill</string>
+    <string name="darkness">Darkness</string>
+    <string name="sea">Sea</string>
+    <string name="borderland">Borderland</string>
+    <string name="ace_leaves">Ace of Leaves</string>
+    <string name="savage">Savage</string>
+    <string name="market">Market</string>
+    <string name="merchant">Merchant</string>
+    <string name="end">End</string>
+    <string name="ace_wyrms">Ace of Wyrms</string>
+    <string name="battle">Battle</string>
+    <string name="soldier">Soldier</string>
+    <string name="betrayal">Betrayal</string>
+    <string name="calamity">Calamity</string>
+    <string name="ace_knots">Ace of Knots</string>
+    <string name="windfall">Windfall</string>
+    <string name="title_activity_rules">RulesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    
+    
+    
+    <string name="difficulty">difficulty</string>
+    <string name="difficulty_title">Difficulty Level</string>
+    <string name="difficulty_summary">Easy</string>
+    <string name="difficulty_dialogtitle">Select difficulty of computer opponent</string>
+    <string-array name="difficulty_entries">
+        <item>Beginner</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+    <string-array name="difficulty_values">
+        <item>Beginner</item>
+        <item>Advanced</item>
+        <item>Expert</item>
+    </string-array>
+    <string name="difficulty_default">Beginner</string>
+
+    
+    <string name="optionalcards">Optional cards</string>
+    <string name="optionalcards_title">Decktet Cards</string>
+    <string name="optionalcards_summary">Standard + pawns</string>
+    <string name="optionalcards_dialogtitle">Select optional decktet cards</string>
+    <string-array name="optionalcards_entries">
+        <item>Standard</item>
+        <item>Standard + excuse</item>
+        <item>Standard + pawns</item>
+        <item>Standard + pawns + excuse</item>
+        <item>Standard + pawns + courts</item>
+        <item>Standard + pawns + courts + excuse</item>
+    </string-array>
+    <string-array name="optionalcards_values">
+        <item>Standard</item>
+        <item>Standard + excuse</item>
+        <item>Standard + pawns</item>
+        <item>Standard + pawns + excuse</item>
+        <item>Standard + pawns + courts</item>
+        <item>Standard + pawns + courts + excuse</item>
+    </string-array>
+    <string name="optionalcards_default">Standard + pawns</string>
+    
+    
+    <string name="numberofyears">numberofyears</string>
+    <string name="numberofyears_title">Number of years</string>
+    <string name="numberofyears_summary">4</string>
+    <string name="numberofyears_dialogtitle">Select number of years in a game</string>
+    <string-array name="numberofyears_entries">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="numberofyears_values">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string name="numberofyears_default">4</string>
+    
+    
+</resources>
