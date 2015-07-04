@@ -192,7 +192,8 @@ public class PlayView extends View {
 					}
 				}
 			}
-			
+
+			// Draw from stock or discard
 			else if (game_phase == PLAYER_DRAW) {	
 				if (inDrawPile(x,y)) {
 						DrawCard(playerHand);
@@ -204,6 +205,7 @@ public class PlayView extends View {
 						game_phase = CPU_PLAY;
 						CpuPlay();
 				}
+
 			/*	else if (x > columnXCoord[4] && x < columnXCoord[4] + scaledCardW) { //TODO: button for Undo
 					playerHand.add(playerEmus.get(lastEmuIndex).remove(playerEmus.get(lastEmuIndex).size()-1));
 					game_phase = PLAYER_PLAY;
@@ -419,8 +421,8 @@ public class PlayView extends View {
 		
 		// CPU's hand
 		for (int i=0; i<cpuHand.size(); i++) {
-//			canvas.drawBitmap(cardBack, (float) columnXCoord[0]+(5*i), (float) cpuAreaYCoord, null);
-			canvas.drawBitmap(cpuHand.get(i).getBmp(), (float) columnXCoord[0], (float) (cpuAreaYCoord+scaledCardH*0.2*i), null);
+			canvas.drawBitmap(cardBack, (float) columnXCoord[0]+(5*i), (float) cpuAreaYCoord, null);
+//			canvas.drawBitmap(cpuHand.get(i).getBmp(), (float) columnXCoord[0], (float) (cpuAreaYCoord+scaledCardH*0.2*i), null);
 		}
 		
 		// CPU's emus

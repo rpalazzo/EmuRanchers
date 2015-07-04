@@ -79,7 +79,7 @@ public class DecktetCard {
 		String retString = "";
 		switch (this.getId() & RANK_MASK) {
 		case ACE:
-			retString = "Ace "; //TODO: use resource?
+			retString = "Ace "; //TODO: use resource? -- currently only called by LogCards (not seen by user)
 			break;
 		case PAWN:
 			retString = "Pawn ";
@@ -99,22 +99,22 @@ public class DecktetCard {
 		}
 		
 		
-		if (((this.getSuits() & MOONS)) == MOONS) {
-			retString += "Moons "; //TODO: use resource
+		if (isMoon()) {
+			retString += "Moons "; //TODO: use resource? -- currently only called by LogCards (not seen by user)
 		}
-		if (((this.getSuits() & SUNS)) == SUNS) {
+		if (isSun()) {
 			retString += "Suns ";
 		}
-		if (((this.getSuits() & WAVES)) == WAVES) {
+		if (isWave()) {
 			retString += "Waves ";
 		}
-		if (((this.getSuits() & LEAVES)) == LEAVES) {
+		if (isLeaf()) {
 			retString += "Leaves ";
 		}
-		if (((this.getSuits() & WYRMS)) == WYRMS) {
+		if (isWyrm()) {
 			retString += "Wyrms ";
 		}
-		if (((this.getSuits() & KNOTS)) == KNOTS) {
+		if (isKnot()) {
 			retString += "Knots ";
 		}
 		

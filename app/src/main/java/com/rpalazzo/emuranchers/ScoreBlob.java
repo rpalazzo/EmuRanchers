@@ -17,13 +17,13 @@ public class ScoreBlob {
 		super();
 	}
 	
-	public ScoreBlob(String paymentCards, String profitCards, int numberAcesAndCrowns, int profit) {
+	/*public ScoreBlob(String paymentCards, String profitCards, int numberAcesAndCrowns, int profit) {
 		//super();
 		this.paymentCards = paymentCards;
 		this.profitCards = profitCards;
 		this.numberAcesAndCrowns = numberAcesAndCrowns;
 		this.profit = profit;
-	}
+	}*/
 	
 	public ScoreBlob(String paymentCards, String profitCards, int profit) {
 		//super();
