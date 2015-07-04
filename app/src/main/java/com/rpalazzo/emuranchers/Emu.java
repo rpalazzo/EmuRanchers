@@ -17,7 +17,7 @@ public class Emu<E> extends ArrayList<E> {
 	private static final int GROWING_UP = 1;
 	private static final int GROWING_DOWN = -1;
 	private static final int GROWING_UNDETERMINED = 0;	
-	private int growthDirection = GROWING_UNDETERMINED;
+	private int growthDirection = GROWING_UNDETERMINED; 
 	
 	private static final int WILD_CARD = -1;
 	
